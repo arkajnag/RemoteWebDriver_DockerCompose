@@ -10,6 +10,8 @@ services:
 
   chrome:
     image: selenium/node-chrome:3.141.59-20200525
+    ports: 
+      - "4545:4444"
     volumes:
       - --shm-size=2g
     depends_on:
@@ -20,6 +22,8 @@ services:
 
   firefox:
     image: selenium/node-firefox:3.141.59-20200525
+    ports:
+      - "4646:4444"
     volumes:
       - --shm-size=2g
     depends_on:

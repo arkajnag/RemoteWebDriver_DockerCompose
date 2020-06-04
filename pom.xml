@@ -71,7 +71,7 @@
 				</executions>
 				<configuration>
 					<descriptorRefs>
-						<descriptorRef>jarDependencies</descriptorRef>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
 					<archive>
 						<manifest>

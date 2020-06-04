@@ -1,22 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.838 s <<< FAILURE! - in TestSuite
-com.RemoteWebDriver.TestCases.SeleniumTest.tcSeleniumRemoteExecution  Time elapsed: 3.001 s  <<< FAILURE!
-java.lang.RuntimeException: 
-Browser not to be InitiatedCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-6DIG0QK', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: RemoteWebDriver
-	at com.RemoteWebDriver.TestCases.SeleniumTest.lambda$new$0(SeleniumTest.java:21)
-	at com.RemoteWebDriver.TestCases.SeleniumTest.tcSeleniumRemoteExecution(SeleniumTest.java:32)
-
-com.RemoteWebDriver.TestCases.SeleniumTest.tcSeleniumRemoteExecution  Time elapsed: 2.051 s  <<< FAILURE!
-java.lang.RuntimeException: 
-Browser not to be InitiatedCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-6DIG0QK', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: RemoteWebDriver
-	at com.RemoteWebDriver.TestCases.SeleniumTest.lambda$new$0(SeleniumTest.java:21)
-	at com.RemoteWebDriver.TestCases.SeleniumTest.tcSeleniumRemoteExecution(SeleniumTest.java:32)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.322 s - in TestSuite

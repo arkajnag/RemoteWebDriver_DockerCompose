@@ -15,8 +15,8 @@ public class SeleniumTest {
 
 	Function<String, RemoteWebDriver> rDriverFunction = browserName ->{
 			try {
-				return browserName.equalsIgnoreCase("chrome")?new RemoteWebDriver(new URL("http://localhost:4545/wd/hub"), DesiredCapabilities.chrome())
-						: new RemoteWebDriver(new URL("http://localhost:4545/wd/hub"), DesiredCapabilities.firefox());
+				return browserName.equalsIgnoreCase("chrome")?new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.chrome())
+						: new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.firefox());
 			} catch (Exception e) {
 				throw new RuntimeException("Browser not to be Initiated" + e.getMessage());
 		}

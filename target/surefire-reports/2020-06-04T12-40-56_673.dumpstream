@@ -1,0 +1,4 @@
+# Created at 2020-06-04T12:40:57.440
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Study Materials\Java\TDDFramework\RemoteWebDriver\target\classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
